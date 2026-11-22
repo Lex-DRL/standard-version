@@ -13,6 +13,9 @@
 *Standardize version string for releases.*
 </div>
 
+> [!TIP]
+> Also available as ready-to-use [GitHub action](https://github.com/Lex-DRL/standardize-version-action).
+
 - Handles `v` prefix.
 - Designed to work with pythonic SemVer format, but supports any number of version segments. (`0.1`, `0.0.1`, `0.0.0.1`, ...)
 - Turns pre-release specifiers into human-readable names, while preserving other sub-version specifiers:
